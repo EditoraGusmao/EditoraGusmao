@@ -1,29 +1,24 @@
 const btnNFpagina = document.getElementById("btnNFpagina");
+const btnLivros = document.getElementById("btnLivros");
+const btnAutores = document.getElementById("btnAutores");
+const btnLancamentos = document.getElementById("btnLancamentos");
 
 btnNFpagina.addEventListener("click", function (event) {
-
     event.preventDefault();
-
-    window.location.href = ("https://editoragusmao.github.io/New-Fantasy/");
-
+    window.location.href = "https://editoragusmao.github.io/New-Fantasy/";
 });
 
-
-
-const btnLogin = document.getElementById("btnLogin");
-
-btnLogin.addEventListener("click", function () {
-    window.location.href = "../Gusm-o-editora/paginas/Login/cadastro.html";
+btnLivros.addEventListener("click", function (event) {
+    event.preventDefault();
+    window.location.href = "https://editoragusmao.github.io/Livros/";
 });
 
-
-
-const btnbooks = document.getElementById("btnbooks");
-
-btnbooks.addEventListener("click", function (event) {
-
+btnAutores.addEventListener("click", function (event) {
     event.preventDefault();
+    window.location.href = "https://editoragusmao.github.io/Autores/";
+});
 
-    window.location.href = "../Gusm-o-editora/paginas/livros/livrosprincipal.html";
-
+btnLancamentos.addEventListener("click", function (event) {
+    event.preventDefault();
+    window.location.href = "https://editoragusmao.github.io/Lancamentos/";
 });
