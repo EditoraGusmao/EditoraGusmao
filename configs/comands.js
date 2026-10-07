@@ -4,7 +4,7 @@ btnNFpagina.addEventListener("click", function (event) {
 
     event.preventDefault();
 
-    window.location.href = "https://editoragusmao.github.io/New-Fantasy/";
+    window.location.href = ("https://editoragusmao.github.io/New-Fantasy/");
 
 });
 
