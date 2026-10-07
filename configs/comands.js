@@ -4,7 +4,7 @@ btnNFpagina.addEventListener("click", function (event) {
 
     event.preventDefault();
 
-    window.location.href = "../Gusm-o-editora/paginas/NewFantasy/nfprincipal.html";
+    window.location.href = "https://editoragusmao.github.io/New-Fantasy/";
 
 });
 
