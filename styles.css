@@ -179,6 +179,68 @@ section {
     color: #777;
 }
 
+.banner2 {
+    width: 80%;
+    min-height: 400px;
+
+    display: flex;
+    align-items: center;
+
+    background-color: #fff;
+}
+
+.banner2 img {
+    width: 50%;
+    height: 400px;
+
+    object-fit: cover;
+}
+
+.banner2-info {
+    padding: 40px;
+}
+
+.banner2-info h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.banner2-info p {
+    margin-bottom: 25px;
+    color: #777;
+}
+
+.banner3 {
+    width: 80%;
+    min-height: 400px;
+
+    display: flex;
+    align-items: center;
+
+    background-color: #fff;
+}
+
+.banner3 img {
+    width: 50%;
+    height: 400px;
+
+    object-fit: cover;
+}
+
+.banner3-info {
+    padding: 40px;
+}
+
+.banner3-info h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.banner3-info p {
+    margin-bottom: 25px;
+    color: #777;
+}
+
 .seta {
     width: 45px;
     height: 45px;
