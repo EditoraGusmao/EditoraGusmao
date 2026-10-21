@@ -1,3 +1,3 @@
 Pesquisa = input("Digite o nome:")
 
-print(f"seu item é {Pesquisa}")
+print("seu item é {Pesquisa}")
